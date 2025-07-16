@@ -40,6 +40,15 @@ The analysis is based on 6 raw tables ingested into SQLite for modeling:
 - **SQLite**: Data modeling & query execution
 
 ---
+## 📑 Analysis Notebooks
+
+📘 [`exploratory_data_analysis.ipynb`](notebooks/exploratory_data_analysis.ipynb)  
+Basic EDA, data validation, and transformation of raw tables.
+
+📗 [`vendor_performance_analysis.ipynb`](notebooks/vendor_performance_analysis.ipynb)  
+Detailed profit/margin-based analysis across vendors, unsold inventory KPIs, brand filtering, and SQL joins.
+
+---
 
 ## 📌 Key Insights
 
@@ -51,13 +60,7 @@ The analysis is based on 6 raw tables ingested into SQLite for modeling:
 
 ---
 
-## 📑 Exploratory Data Analysis
 
-The initial data cleaning, profiling, and aggregation logic is documented in the following notebook:
-
-📘 [`exploratory_data_analysis.ipynb`](notebooks/exploratory_data_analysis.ipynb)
-
----
 
 ## 📊 Power BI Dashboard
 
