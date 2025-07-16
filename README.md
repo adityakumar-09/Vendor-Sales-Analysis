@@ -1,8 +1,8 @@
 # 📦 Vendor Sales Performance Analysis
 
-[📄 View Full Report (PDF)]([https://drive.google.com/file/d/your-report-link-id/view?usp=sharing](https://drive.google.com/file/d/1_0xoAGXMA6eONg6L_omfeXdjZ0NfJ5xL/view?usp=drivesdk)
+📄 [**View Full Report (PDF)**](https://drive.google.com/file/d/1_0xoAGXMA6eONg6L_omfeXdjZ0NfJ5xL/view?usp=drivesdk)
 
-This project analyzes vendor-level sales and purchase performance in an e-commerce inventory environment using SQL, Python, and Power BI. It highlights key patterns in sales, profitability, inventory inefficiencies, and vendor performance to support strategic decision-making.
+This project analyzes vendor-level sales and purchase performance in an e-commerce inventory environment using **SQL**, **Python**, and **Power BI**. It highlights key patterns in sales, profitability, inventory inefficiencies, and vendor performance to support strategic decision-making.
 
 ---
 
@@ -28,7 +28,7 @@ The analysis is based on 6 raw tables ingested into SQLite for modeling:
 | `sales`           | Sales transactions                          | 12,825,363   |
 | `vendor_invoice`  | Invoice and freight cost info               | 4,453        |
 
-📂 [**Download the dataset**]([https://drive.google.com/file/d/your-dataset-link-id/view?usp=sharing](https://drive.google.com/drive/folders/1Q9xEBaYY5IBPrdwLJB6eg5jo-Hsw6iOz)
+📂 [**Download Dataset (Google Drive)**](https://drive.google.com/drive/folders/1Q9xEBaYY5IBPrdwLJB6eg5jo-Hsw6iOz)
 
 ---
 
@@ -40,13 +40,11 @@ The analysis is based on 6 raw tables ingested into SQLite for modeling:
 - **SQLite**: Data modeling & query execution
 
 ---
+
 ## 📑 Analysis Notebooks
 
-📘 [`exploratory_data_analysis.ipynb`]([notebooks/exploratory_data_analysis.ipynb](https://github.com/adityakumar-09/Vendor-Sales-Analysis/blob/main/Exploratroy%20Data%20Analysis.ipynb)  
-Basic EDA, data validation, and transformation of raw tables.
-
-📗 [`vendor_performance_analysis.ipynb`]([notebooks/vendor_performance_analysis.ipynb](https://github.com/adityakumar-09/Vendor-Sales-Analysis/blob/main/Venor%20Peformance%20Analysis.ipynb)  
-Detailed profit/margin-based analysis across vendors, unsold inventory KPIs, brand filtering, and SQL joins.
+📘 [**Exploratory Data Analysis**](https://github.com/adityakumar-09/Vendor-Sales-Analysis/blob/main/Exploratroy%20Data%20Analysis.ipynb)  
+📗 [**Vendor Performance Analysis**](https://github.com/adityakumar-09/Vendor-Sales-Analysis/blob/main/Venor%20Peformance%20Analysis.ipynb)
 
 ---
 
@@ -60,14 +58,12 @@ Detailed profit/margin-based analysis across vendors, unsold inventory KPIs, bra
 
 ---
 
-
-
 ## 📊 Power BI Dashboard
 
-Below is the final Power BI visualization used to present business insights:
+> 💡 Includes KPIs for total sales, purchase cost, gross profit, profit margin, unsold capital, vendor rankings, and brand segmentation.
 
-![Vendor Sales Power BI Dashboard]([https://raw.githubusercontent.com/your-username/your-repo/main/visuals/vendor_sales_dashboard.png](https://github.com/adityakumar-09/Vendor-Sales-Analysis/blob/main/DASHBOARD.png)
-
-> 💡 Includes KPIs for sales, purchase, gross profit, profit margin, unsold capital, and vendor-level contributions.
+![Vendor Sales Dashboard](https://github.com/adityakumar-09/Vendor-Sales-Analysis/blob/main/DASHBOARD.png)
 
 ---
+
+
