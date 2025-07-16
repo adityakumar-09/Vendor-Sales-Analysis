@@ -34,7 +34,7 @@ The analysis is based on 6 raw tables ingested into SQLite for modeling:
 
 ## 🛠️ Tools & Technologies
 
-- **Python**: `pandas`, `sqlite3`
+- **Python**: `pandas`, `sqlite3`, `matplotlib`, `seaborn`
 - **SQL**: Joins, CTEs, aggregations
 - **Power BI**: Dashboards, visual storytelling
 - **SQLite**: Data modeling & query execution
