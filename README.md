@@ -1,24 +1,23 @@
 # 📦 Vendor Sales Performance Analysis
 
-[📄 View Full Report (PDF)](https://drive.google.com/file/d/your-drive-file-id/view?usp=sharing)
+[📄 View Full Report (PDF)](https://drive.google.com/file/d/your-report-link-id/view?usp=sharing)
 
-This project analyzes vendor-level sales and purchase performance in an e-commerce inventory environment using SQL, Python (SQLite3 + Pandas), and Power BI. The aim is to uncover actionable insights that help improve profitability, vendor efficiency, inventory movement, and pricing strategies.
+This project analyzes vendor-level sales and purchase performance in an e-commerce inventory environment using SQL, Python, and Power BI. It highlights key patterns in sales, profitability, inventory inefficiencies, and vendor performance to support strategic decision-making.
 
 ---
 
 ## 📊 Business Objectives
 
-- Identify underperforming brands for promotional or pricing optimization  
-- Determine top vendors by sales and gross profit contribution  
-- Analyze impact of bulk purchasing on unit cost  
-- Detect low-inventory turnover and holding inefficiencies  
-- Compare profit margins between high and low performing vendors
+- Identify top & bottom-performing vendors by sales, profit, and purchase behavior  
+- Uncover unsold inventory impact across low-volume brands  
+- Compare margins between volume-driven and premium pricing strategies  
+- Analyze purchase concentration and vendor dependency
 
 ---
 
 ## 🧾 Dataset Description
 
-The raw data is extracted from a real-world inventory system and consists of **6 interconnected tables**, ingested into a SQLite database:
+The analysis is based on 6 raw tables ingested into SQLite for modeling:
 
 | Table Name         | Description                                 | Record Count |
 |-------------------|---------------------------------------------|--------------|
@@ -29,35 +28,43 @@ The raw data is extracted from a real-world inventory system and consists of **6
 | `sales`           | Sales transactions                          | 12,825,363   |
 | `vendor_invoice`  | Invoice and freight cost info               | 4,453        |
 
-🔗 [**Download the dataset here**](https://drive.google.com/file/d/your-dataset-link/view?usp=sharing)
+📂 [**Download the dataset**](https://drive.google.com/file/d/your-dataset-link-id/view?usp=sharing)
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
-- **Python** (`pandas`, `sqlite3`)
-- **SQL** (CTEs, aggregation, joins, filtering)
-- **Power BI** (interactive dashboard & visualizations)
-
----
-
-## 📌 Key Findings
-
-- 📉 **$2.71M in unsold inventory** tied to low-turnover vendors  
-- 🧾 **Top 10 vendors** account for 65% of purchases, suggesting dependency  
-- 💰 **Bulk buyers** pay ~72% lower unit prices, encouraging large-volume discounts  
-- 📈 High-margin vendors often lack volume, while high-volume vendors have tighter margins  
-- 📊 Significant statistical difference found in profit margins between top and bottom performers
+- **Python**: `pandas`, `sqlite3`
+- **SQL**: Joins, CTEs, aggregations
+- **Power BI**: Dashboards, visual storytelling
+- **SQLite**: Data modeling & query execution
 
 ---
 
-## ✅ Final Recommendations
+## 📌 Key Insights
 
-- Optimize pricing for low-sales, high-margin brands  
-- Reduce reliance on a few vendors by diversifying partnerships  
-- Leverage bulk-buying to cut costs  
-- Improve marketing/distribution for low-performing vendors  
-- Address slow-moving inventory via clearance or purchase planning  
+- 💸 Unsold inventory amounts to **$2.71M**
+- 🏆 Top 10 vendors account for **65%** of purchases
+- 📉 Low-performing vendors have profit margins as low as **0.62**
+- 📈 Bulk purchases yield **~72% cheaper unit cost**
+- 🔍 Distinct margin patterns between target and non-target brands
 
 ---
 
+## 📑 Exploratory Data Analysis
+
+The initial data cleaning, profiling, and aggregation logic is documented in the following notebook:
+
+📘 [`exploratory_data_analysis.ipynb`](notebooks/exploratory_data_analysis.ipynb)
+
+---
+
+## 📊 Power BI Dashboard
+
+Below is the final Power BI visualization used to present business insights:
+
+![Vendor Sales Power BI Dashboard](https://raw.githubusercontent.com/your-username/your-repo/main/visuals/vendor_sales_dashboard.png)
+
+> 💡 Includes KPIs for sales, purchase, gross profit, profit margin, unsold capital, and vendor-level contributions.
+
+---
